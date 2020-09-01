@@ -8,7 +8,7 @@ namespace TwitchChat_bckEnd
     class Program
     {
 
-        public const string CredentialsJsonPath = "";
+        public const string CredentialsJsonPath = @"C:\Users\pedro\Documents\Unity\Projects\TwitchChatProject\TwitchChat\Assets\Resources\Dev\client.json";
 
         static void Main(string[] args)
         {

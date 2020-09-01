@@ -1,4 +1,15 @@
-﻿using System.Collections;
+/**********************************************************************
+* Project           : PCharacter
+*
+* Author            : Pedro Pereira Lourenço
+*
+* Last Update      :  2020‑03‑08
+*
+* Purpose           : An easy way to create 2D characters
+**********************************************************************/
+ 
+ 
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;

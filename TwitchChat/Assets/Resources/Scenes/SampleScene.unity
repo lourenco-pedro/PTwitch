@@ -214,10 +214,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Access:
-    BackEndProcessPath: 
-    JsonPath: 
-    DevBackEndProcessPath: 
-    DevJsonPath: 
+    BackEndProcessPath: C:\Users\pedro\Documents\Unity\Projects\TwitchChatProject\TwitchChat_bckEnd\TwitchChat_bckEnd\bin\Debug\netcoreapp3.1
+    JsonPath: C:\Users\pedro\Documents\Unity\Projects\TwitchChatProject\TwitchChat\Assets\Resources\Dev
+    DevBackEndProcessPath: C:\Users\pedro\Documents\Unity\Projects\TwitchChatProject\TwitchChat_bckEnd\TwitchChat_bckEnd\bin\Debug\netcoreapp3.1
+    DevJsonPath: C:\Users\pedro\Documents\Unity\Projects\TwitchChatProject\TwitchChat\Assets\Resources\Dev
   Client:
     UserName: 
     AccessToken: 

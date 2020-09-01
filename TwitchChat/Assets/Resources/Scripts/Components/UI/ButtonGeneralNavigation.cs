@@ -57,10 +57,14 @@ namespace TwitchChat_frntEnd
             Access access = AccessUtil.GetAccessData();
             LoginSettingsPanelComponent loginSettingsPanelComponent = (LoginSettingsPanelComponent)UIPanelUtil.GetUIPanel(PanelType.LOGIN_SETTINGS);
 
+#if UNITY_EDITOR
             access.DevJsonPath = loginSettingsPanelComponent.InputField_DevJsonPath.text;
+#endif
             access.JsonPath = loginSettingsPanelComponent.InputField_JsonPath.text;
 
+#if UNITY_EDITOR
             PlayerPrefs.SetString("DevJsonPath", access.DevJsonPath);
+#endif
             PlayerPrefs.SetString("JsonPath", access.JsonPath);
 #if UNITY_EDITOR
             if (loginSettingsPanelComponent.InputField_DevJsonPath.text != string.Empty)

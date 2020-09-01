@@ -4,5 +4,7 @@ TwitchChat/Library/PackageCache/
 TwitchChat/Library/ShaderCache/
 TwitchChat/Temp/
 TwitchChat/Assets/Resources/Dev/
+TwitchChat_bckEnd\TwitchChat_bckEnd/bin\Debug\netcoreapp3.1\
+TwitchChat/Builds/
 launch.json
 
