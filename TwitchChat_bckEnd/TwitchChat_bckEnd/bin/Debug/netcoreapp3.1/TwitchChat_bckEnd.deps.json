@@ -1,0 +1,126 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TwitchChat_bckEnd/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "TwitchLib.Client": "3.1.5"
+        },
+        "runtime": {
+          "TwitchChat_bckEnd.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "TwitchLib.Client/3.1.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
+          "TwitchLib.Client.Enums": "3.1.4",
+          "TwitchLib.Client.Models": "3.1.5",
+          "TwitchLib.Communication": "1.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TwitchLib.Client.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.1.5.0"
+          }
+        }
+      },
+      "TwitchLib.Client.Enums/3.1.4": {
+        "runtime": {
+          "lib/netstandard2.0/TwitchLib.Client.Enums.dll": {
+            "assemblyVersion": "3.1.4.0",
+            "fileVersion": "3.1.4.0"
+          }
+        }
+      },
+      "TwitchLib.Client.Models/3.1.5": {
+        "dependencies": {
+          "TwitchLib.Client.Enums": "3.1.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TwitchLib.Client.Models.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.1.5.0"
+          }
+        }
+      },
+      "TwitchLib.Communication/1.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/TwitchLib.Communication.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TwitchChat_bckEnd/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XRzK7ZF+O6FzdfWrlFTi1Rgj2080ZDsd46vzOjadHUB0Cz5kOvDG8vI7caa5YFrsHQpcfn0DxtjS4E46N4FZsA==",
+      "path": "microsoft.extensions.logging.abstractions/2.1.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "TwitchLib.Client/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S78bjx7V7H58TUYSNk6TLHCviqCfxVR/8uOsIkyHJVINfRoqK5b3m6nqOsyeQh1amEaNOzrD4muiCo3PxXPsXA==",
+      "path": "twitchlib.client/3.1.5",
+      "hashPath": "twitchlib.client.3.1.5.nupkg.sha512"
+    },
+    "TwitchLib.Client.Enums/3.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TxItwSS64opA90kc5cPKdfNl/AC1YkkKJgbPux5Xsq/xKgDSCmHv9K2kficWOhbxu4X2f1AvcZZXJS7rIe24WQ==",
+      "path": "twitchlib.client.enums/3.1.4",
+      "hashPath": "twitchlib.client.enums.3.1.4.nupkg.sha512"
+    },
+    "TwitchLib.Client.Models/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0gx9S/jtOzwqE5JPaCLPoclLLiZVb6qC2GSUC3m5GfKsvoFm54ZP4aDUBxMB6vRrPhgvNayYk/q96GIOf0+mxw==",
+      "path": "twitchlib.client.models/3.1.5",
+      "hashPath": "twitchlib.client.models.3.1.5.nupkg.sha512"
+    },
+    "TwitchLib.Communication/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ale1+XKfSQgCBRKQQOWjvpFlx/7Ji/uoaIpOx6QIJ3NvsfzUy5/edeFWEFftqbQegLSUCK8zVSLKOmdsHJ8bYw==",
+      "path": "twitchlib.communication/1.0.3",
+      "hashPath": "twitchlib.communication.1.0.3.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ai/1RKDFMqTDLyZ3OtENYF+goZwnda24F5WC8ltmm12z6yt63FImZPgnYIqC0947JYe9qU4qc1s7OXgfFKTOBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pedro\\Documents\\Unity\\Projects\\TwitchChatProject\\TwitchChat_bckEnd\\TwitchChat_bckEnd\\TwitchChat_bckEnd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.1\\microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\twitchlib.client\\3.1.5\\twitchlib.client.3.1.5.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\twitchlib.client.enums\\3.1.4\\twitchlib.client.enums.3.1.4.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\twitchlib.client.models\\3.1.5\\twitchlib.client.models.3.1.5.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\twitchlib.communication\\1.0.3\\twitchlib.communication.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
