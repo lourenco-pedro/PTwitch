@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace TwitchChat_frntEnd
 {
+#if UNITY_EDITOR
     public static class GameDebug
     {
         public static bool DebugUsers = true;
@@ -44,4 +45,5 @@ namespace TwitchChat_frntEnd
 
         #endregion
     }
+#endif
 }

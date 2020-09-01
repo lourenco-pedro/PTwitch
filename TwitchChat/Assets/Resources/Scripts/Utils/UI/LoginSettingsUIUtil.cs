@@ -14,9 +14,9 @@ namespace TwitchChat_frntEnd
 
 #if UNITY_EDITOR
             panel.InputField_DevJsonPath.text = AccessUtil.GetCredentialsJsonPath();
-#else
-            panel.InputField_JsonPath.text = AccessUtil.GetCredentialsJsonPath();
 #endif
+
+            panel.InputField_JsonPath.text = AccessUtil.GetCredentialsJsonPath();
         }
     }
 }
