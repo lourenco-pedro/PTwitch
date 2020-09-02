@@ -6,31 +6,31 @@
 
 ## About
 
-An interactive way for your Twitch Followers watch your streams
+An interactive way for your Twitch Followers watch your streams.
 
 This git is the raw version of my PTwich project that I solved to share with you guys :)
 
 Feel free to implement in your own way and use it for commercial porpuses.
 
-If you guys have any feedback about the code - It architecture, performance, etc - I'll be glad to read them in my email pedropereralourenco@gmail.com
+If you guys have any feedback about the code - It architecture, performance, etc - I'll be glad to read them in my email pedropereralourenco@gmail.com.
 
 ## TwitchLib by swiftyspiffy
 
-Para toda parte de interação com os serviços da Twitch foi utilizado a livraria TwitchLib, de swiftyspiffy. Meus agradecimentos para eles por facilitarem e realização dete projeto
+Para toda parte de interação com os serviços da Twitch foi utilizado a livraria TwitchLib, de swiftyspiffy. Meus agradecimentos para eles por facilitarem e realização dete projeto.
 
 For the entire interaction with Twitch services, the TwitchLib library, from swiftyspiffy, was used. My thanks to them for facilitating the realization of this project
 
-TwitchLib:  https://github.com/TwitchLib
+TwitchLib:  https://github.com/TwitchLib.
 
-contact: swiftyspiffy@gmail.com
+contact: swiftyspiffy@gmail.com.
 
 # The Backend 
 
 ## About
 
-You can modify the entire Backend source code as you want in **TwitchChat_bckEnd/** 
+You can modify the entire Backend source code as you want in **TwitchChat_bckEnd/**. 
 
-In the Backend is where the registration of all activities sent by users in the chat happens. The program must save all of these events within a json file located in the path defined in ** Program.cs **
+In the Backend is where the registration of all activities sent by users in the chat happens. The program must save all of these events within a json file located in the path defined in **Program.cs**.
 
 ````csharp
 public const string CredentialsJsonPath;
@@ -51,7 +51,7 @@ public const string CredentialsJsonPath;
 
 # The Frontend 
 
-All the visual stuff, such as login authentication and chat visualization happens in the Unity Project. The project can be found in  **TwitchChat/**
+All the visual stuff, such as login authentication and chat visualization happens in the Unity Project. The project can be found in  **TwitchChat/**.
 
 ## Setup Dev and Standalone Path 
 
