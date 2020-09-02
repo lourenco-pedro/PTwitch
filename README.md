@@ -6,35 +6,37 @@
 
 ## About
 
-An interactive way for your Twitch Followers whatch your streams
+An interactive way for your Twitch Followers watch your streams
 
-Este git apenas a versão bem inicial do projeto PTwitch que resolvi compartilhar com vocês :)
+This git is the raw version of my PTwich project that I solved to share with you guys :)
 
-Caso queiram utilizar este projeto para implementar do seu jeito e querer destribuir de forma comercial, sinta-se a vontade.
+Feel free to implement in your own way and use it for commercial porpuses.
 
-Se você tiver qualquer feedback sobre o código - Sua arquitetura, performance, etc - eu ficarei feliz de receber em meu email pedropereralourenco@gmail.com
+If you guys have any feedback about the code - It architecture, performance, etc - I'll be glad to read them in my email pedropereralourenco@gmail.com
 
 ## TwitchLib by swiftyspiffy
 
 Para toda parte de interação com os serviços da Twitch foi utilizado a livraria TwitchLib, de swiftyspiffy. Meus agradecimentos para eles por facilitarem e realização dete projeto
 
+For the entire interaction with Twitch services, the TwitchLib library, from swiftyspiffy, was used. My thanks to them for facilitating the realization of this project
+
 TwitchLib:  https://github.com/TwitchLib
 
-contato: swiftyspiffy@gmail.com
+contact: swiftyspiffy@gmail.com
 
 # The Backend 
 
 ## About
 
-Você pode modificar toda parte de Backend do PTwitch localizado na pasta **TwitchChat_bckEnd/**
+You can modify the entire Backend source code as you want in **TwitchChat_bckEnd/** 
 
-No Backend é onde acontece o registro de todas as atividades enviadas pelos usuários no chat. O programa deve registrar todos esses eventos dentro de um arquivo Json localizado no caminho definido em **Program.cs**
+In the Backend is where the registration of all activities sent by users in the chat happens. The program must save all of these events within a json file located in the path defined in ** Program.cs **
 
 ````csharp
 public const string CredentialsJsonPath;
 ````
 
-**note:** O arquivo Json é criado automaticamente quando você salva suas definições, quando está testando PTwitch na Unity Engine. Basta clicar no ícone de engranagem localizado no canto superior direito da tela.
+**note:** The json file is automatically created when you save all the definitions of PTwich settings in Unity Engine. Just click at the gear icon located on the top right corner of the screen.
 
 ###### The Json file will look like this
 ```json
@@ -49,13 +51,12 @@ public const string CredentialsJsonPath;
 
 # The Frontend 
 
-O projeto da Unity é onde acontece toda a parte visual do PTwitch. Desde o momento de login até a parte de vizualização do chat.
-O projeto se encontra dendro da pasta **TwitchChat/**
+All the visual stuff, such as login authentication and chat visualization happens in the Unity Project. The project can be found in  **TwitchChat/**
 
 ## Setup Dev and Standalone Path 
 
-A parte de Frontend precisa receber o mesmo caminho de onde está salvo o arquivo Json. Assim, PTwitch ficará recebendo as informações salvas e atualiazndo.
+The frontend needs to receive the same json file path location, so it can collect all information and display them on the screen.
 
-Como já dito antes, para definir esse caminho, na tela de Login, basta clicar na engrenagem e definir os valores. Não é necessário nenhum nome para o arquivo, somente passe o caminho onde você quer que seja salvo.
+For that, you will need to define it in the Login Authorization screen, just click at the gear icon and set the values. No file name needs to be added, only the path where it will be loaded. 
 
-**note:** Existem dois cominhos onde você pode salvar o arquivo Json. O primeiro caminho serve para a versão standalone, e a segunda somente quando você está testando dentro da Unity Engine.
+**note:** There will be two ways where you can save the json file. One is for when you are testing in Unity Engine (DEV), and the other is when you build the project.
