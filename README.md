@@ -16,8 +16,6 @@ If you guys have any feedback about the code - It architecture, performance, etc
 
 ## TwitchLib by swiftyspiffy
 
-Para toda parte de interação com os serviços da Twitch foi utilizado a livraria TwitchLib, de swiftyspiffy. Meus agradecimentos para eles por facilitarem e realização dete projeto.
-
 For the entire interaction with Twitch services, the TwitchLib library, from swiftyspiffy, was used. My thanks to them for facilitating the realization of this project
 
 TwitchLib:  https://github.com/TwitchLib.
