@@ -42,7 +42,7 @@ public const string CredentialsJsonPath;
     "UserName": "",
     "AccessToken": "",
     "Connected": false,
-    "ReadMessages": true,
+    "ReadMessages": false,
     "Followers": []
 }
 ````
