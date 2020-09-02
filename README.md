@@ -1,5 +1,9 @@
 # PTwitch
 
+<p align="center"> 
+<img src="https://media.giphy.com/media/SWv4iUzXhV1nC9edp7/giphy.gif" style="max-height: 300px;">
+</p>
+
 ## About
 
 An interactive way for your Twitch Followers whatch your streams
