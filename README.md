@@ -10,8 +10,6 @@ An interactive way for your Twitch Followers watch your streams.
 
 This git is the raw version of my PTwich project that I solved to share with you guys :)
 
-Feel free to implement in your own way and use it for commercial porpuses.
-
 If you guys have any feedback about the code - It architecture, performance, etc - I'll be glad to read them in my email pedropereralourenco@gmail.com.
 
 ## TwitchLib by swiftyspiffy
@@ -62,4 +60,8 @@ For that, you will need to define it in the Login Authorization screen, just cli
 ## Get the authorization Token
 
 In the login section, you will need to fill the credentials to get started. In the username section, you will put your twitch channel name and right bellow, in the access token section, insert the authorization token where you can get it by accessing this link.
+
+# The Backend 
+
+PTwitch is a free software; you can redistribute it and/or modify it under the terms of the MIT license. See LICENSE for details.
 
