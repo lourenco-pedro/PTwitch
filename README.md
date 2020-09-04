@@ -58,3 +58,8 @@ The frontend needs to receive the same json file path location, so it can collec
 For that, you will need to define it in the Login Authorization screen, just click at the gear icon and set the values. No file name needs to be added, only the path where it will be loaded. 
 
 **note:** There will be two ways where you can save the json file. One is for when you are testing in Unity Engine (DEV), and the other is when you build the project.
+
+## Get the authorization Token
+
+In the login section, you will need to fill the credentials to get started. In the username section, you will put your twitch channel name and right bellow, in the access token section, insert the authorization token where you can get it by accessing this link.
+
