@@ -61,7 +61,7 @@ For that, you will need to define it in the Login Authorization screen, just cli
 
 In the login section, you will need to fill the credentials to get started. In the username section, you will put your twitch channel name and right bellow, in the access token section, insert the authorization token where you can get it by accessing this link.
 
-# The Backend 
+# License 
 
 PTwitch is a free software; you can redistribute it and/or modify it under the terms of the MIT license. See LICENSE for details.
 
